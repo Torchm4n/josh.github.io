@@ -20,15 +20,15 @@ body {
 
 .nav ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style-type: none;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .nav li {
     align-items: center;
-    width: 15rem;
-    padding-right: 7.5rem;
 }
 
 .nav a {
@@ -37,7 +37,7 @@ body {
     font-style: normal;
     font-size: 2rem;
     color: #f1511b;
-    padding-left: 2rem;
+    padding: 0.5rem 5rem;
     text-decoration: none;
     opacity: 0;
 
@@ -70,6 +70,6 @@ body {
 @media (max-width: 768px) {
     .nav.expanded a {
         font-size: 1rem;
-        padding-right: 6rem;
+        padding: 0.5rem 2rem;
     }
 }
