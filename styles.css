@@ -118,6 +118,26 @@ body {
     border-radius: 50rem;
 }
 
+.projects {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    padding-left: 10%;
+}
+
+.projects h1 {
+    font-family: "Space Mono", monospace;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f1511b;
+}
+
+.projects h2 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    color: #2b2b2b;
+}
+
 @media (max-width: 768px) {
     .nav ul {
         flex-wrap: nowrap;
@@ -155,5 +175,17 @@ body {
 
     .content img {
         width: 15rem;
+    }
+
+    .projects {
+        padding-left: 0;
+    }
+
+    .projects h1 {
+        font-size: 1rem;
+    }
+
+    .projects h2 {
+        font-size: 0.7rem;
     }
 }
