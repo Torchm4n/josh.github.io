@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 .nav {
@@ -51,6 +50,11 @@ body {
 }
 
 .nav.expanded a:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.nav.expanded .selected {
     opacity: 1;
     transform: scale(1.1);
 }
