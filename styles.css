@@ -124,6 +124,7 @@ body {
     padding: 2rem;
     padding-left: 10%;
     border: 0.25rem solid #2b2b2b;
+    cursor: pointer;
 }
 
 .projects h1 {
