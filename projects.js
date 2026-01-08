@@ -12,14 +12,14 @@ const data = await data_promise;
 const length = await length_promise;
 
 month.textContent = data[index]["month"];
-title.textContent = `Title: ${data[index]["title"]}`;
-description.textContent = `Description: ${data[index]["description"]}`;
+title.textContent = data[index]["title"];
+description.textContent = data[index]["description"];
 link.textContent = data[index]["link"];
 
 document.addEventListener("pointerdown", async () => {
     month.textContent = data[index]["month"];
-    title.textContent = `Title: ${data[index]["title"]}`;
-    description.textContent = `Description: ${data[index]["description"]}`;
+    title.textContent = data[index]["title"];
+    description.textContent = data[index]["description"];
     link.textContent = data[index]["link"];
 
     index = (index + 1) % length;

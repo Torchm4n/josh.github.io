@@ -138,6 +138,10 @@ body {
     color: #2b2b2b;
 }
 
+.projects .project-text {
+    color: #f1511b;
+}
+
 @media (max-width: 768px) {
     .nav ul {
         flex-wrap: nowrap;
