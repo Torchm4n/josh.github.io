@@ -46,11 +46,18 @@ body {
         transform 0.2s ease-in-out;
 }
 
-.nav.expanded :hover {
+.nav.expanded a {
+    opacity: 0.3;
+}
+
+.nav.expanded a:hover {
     opacity: 1;
     transform: scale(1.1);
 }
 
-.nav.expanded a {
-    opacity: 0.3;
+@media (max-width: 768px) {
+    .nav.expanded a {
+        font-size: 1rem;
+        padding-right: 4rem;
+    }
 }
