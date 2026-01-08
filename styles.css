@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+    height: 7.5rem;
+
+    background-color: red;
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav a {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: black;
+    padding-right: 3.5rem;
+    text-decoration: none;
+    opacity: 0;
+
+    display: inline-block;
+    transform: scale(1);
+}
+
+.nav.expanded {
+    transform: scaleX(1);
+
+    transition: 
+        opacity 0.2s ease-in-out,
+        transform 0.2s ease-in-out;
+}
+
+.nav.expanded :hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.nav.expanded a {
+    opacity: 0.3;
+}
