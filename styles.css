@@ -62,6 +62,6 @@ body {
 @media (max-width: 768px) {
     .nav.expanded a {
         font-size: 1rem;
-        padding-right: 4rem;
+        padding-right: 6rem;
     }
 }
