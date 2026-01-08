@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(to bottom, #ebe4d9, #b4a595);
+    overflow: hidden;
 }
 
 .nav {
@@ -9,7 +11,7 @@ body {
 
     height: 7.5rem;
 
-    background-color: red;
+    background-color: #2b2b2b;
 
     transform: scaleX(0);
     transform-origin: left;
@@ -23,13 +25,19 @@ body {
     margin-right: auto;
 }
 
+.nav li {
+    align-items: center;
+    width: 15rem;
+    padding-right: 7.5rem;
+}
+
 .nav a {
     font-family: "Space Mono", monospace;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.5rem;
-    color: black;
-    padding-right: 3.5rem;
+    font-size: 2rem;
+    color: #f1511b;
+    padding-left: 2rem;
     text-decoration: none;
     opacity: 0;
 
