@@ -81,7 +81,7 @@ body {
     }
 }
 
-.name {
+.content .name {
     padding: 1rem;
     font-family: "Space Mono", monospace;
     font-size: 2rem;
@@ -89,7 +89,7 @@ body {
     color: #f1511b;
 }
 
-.cursor {
+.content .cursor {
     display: inline-block;
     width: 0.1rem;
     background-color: #f1511b;
@@ -97,41 +97,36 @@ body {
     animation: blink 1s step-start infinite;
 }
 
-p {
+.content p {
     padding-left: 1rem;
     font-family: "Space Mono", monospace;
     color: #2b2b2b;
 }
 
-img {
+.content img {
     padding: 1rem;
     border-radius: 50rem;
 }
 
 @media (max-width: 768px) {
-    .nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .nav.expanded a {
-        font-size: 1rem;
+        font-size: 1.5rem;
         padding: 0.5rem 2rem;
     }
 
-    .name {
-        font-size: 1rem;
+    .content .name {
+        font-size: 1.5rem;
     }
 
-    .cursor {
+    .content .cursor {
         padding-right: 0.5rem;
     }
 
-    p {
+    .content p {
         font-size: 0.7rem;
     }
 
-    img {
+    .content img {
         width: 15rem;
     }
 }
