@@ -186,13 +186,16 @@ body {
 
     .projects {
         padding-left: 0;
+        border-radius: 3rem;
     }
 
     .projects h1 {
         font-size: 1rem;
+        padding-left: 1.5rem;
     }
 
     .projects h2 {
         font-size: 0.7rem;
+        padding-left: 1.5rem;
     }
 }
